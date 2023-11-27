@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logoslika{
+    height: 5vh;
+    margin-right: 400px;
+    padding-bottom: 10px;
+}
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 10px;
+}
+nav ul li a:hover{
+    font-size: 19px;
+}
+header{
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    background-color: #1752D2;
+    
+}
+.trenutna{
+    text-decoration: underline white ;
+}
+nav, #logo{
+    margin-top: 20px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#hero{
+    background-image: url(../img/pozadinahero.jpg);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.malipodnaslov{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #105CFF;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px;
+}
+#velikinaslov{
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    text-align: left;
+    line-height: 50px;
+    
+}
+#velikinaslov h1{
+    font-size: 86px;
+    line-height: 94px;
+    max-width: 41%;
+    color: white;
+}
+#velikinaslov h1 span{
+    color: #00F9FF;
+}
+#velikinaslov p{
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 25%;
+    margin-top: 20px;
+    color: #797776;
+}
+.dugmeplavo{
+    color: white;
+    background-color: #0065F9;
+    padding: 10px 23px 12px 23px;
+    border-radius: 26px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: 0px 15px 40px 0px rgba(55, 46, 224, 0.3);
+    border: none;
+}
+.dugmeplavo:hover{
+    background-color: #292929;
+    transition: 150ms;
+    cursor: pointer;
+    
+}
+#benefiti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #eee;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+#benefitinaslov{
+    width: 30%;
+    
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#kartice{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.kartica{
+    background-color: white;
+    padding: 42px 35px 42px 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 20%;
+    height: 200px;
+    padding: 50px;
+    margin: 20px;
+}
+.kartica:hover{
+    background-image: linear-gradient(#0063F9,#00BEDB );
+    transition: 150ms;
+    color: white;
+}
+
+.kartica:hover .karticaopis{
+    color: white;
+}
+#test{
+    display: flex;
+    flex-direction: column;
+}
+.ikonica{
+    width: 50px;
+}
+.sekcijanaslov{
+    font-size: 50px;
+    font-weight: 700;
+}
+.paragraf{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    color: #4C4C4C;
+    margin-bottom: 20px;
+}
+.karticanaslov{
+    padding: 10px;
+}
+#slika-o-nama{
+    height: 800px;
+    border-radius: 20px;
+}
+#o-nama{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #eee;
+    padding-bottom: 90px;
+}
+#onamanaslov{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 50%;
+    text-align: center;
+}
+#usluge{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/usluge.webp);
+    background-position: center;
+    position: relative;
+    
+    
+    
+}
+#uslugenaslov{
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    padding-top: 50px;
+}
+#onamah2{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+#uslugekartice{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    position: relative;
+    align-items: center;
+    top: 30%;
+   
+    
+}
+.uslugekartica{
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 40px;
+    padding: 20px 100px;
+    text-align: center;
+    height: 400px;
+}
+.uslugekartica:hover{
+    background-color: #0051FF;
+    color: white;
+}
+.uslugeikonica{
+    height: 70px;
+    color: blue;
+}
+#ikonica{
+    color: blue;
+    font-size: 50px;
+    padding: 20px 0px 80px 0px
+}
+.karticanaslov{
+    padding-bottom: 20px;
+}
+.karticaopis{
+    color: #7D7D7D;
+    font-size: 16px;
+}
+.uslugekartica:hover .karticaopis{
+    color: white;
+}
+.uslugekartica:hover #ikonica{
+    color: white;
+}
+/*-----------------Footer-----------------------*/
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #151618;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#logoimeni{
+    width: 50%;
+}
+
+#footermeni{
+    margin-left: 30px;
+}
+#footerdugme{
+    color: white;
+    background-color: #0065F9;
+    padding: 10px 23px 12px 23px;
+    border-radius: 26px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: 0px 15px 40px 0px rgba(55, 46, 224, 0.3);
+    border: none;
+}
+#footerdugme:hover{
+    background-color: #292929;
+    transition: 150ms;
+    cursor: pointer;
+}
+#logofooter{
+    width: 300px;
+}
+#footermeni ul li a{
+    color: white;
+}
+#footerlinija{
+    width: 90%;
+    font-weight: 1px;
+    color: #151618;
+}
+#footerdrugi{
+    padding-top: 10px;
+    background-color: #151618;
+    color: white;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+#footerdrugi a {
+    color: white;
+}
+#facebookikonica{
+    padding: 10px;
+}
+#copyright{
+    padding-left: 200px;
+}
+#footerikonice{
+    padding-right: 250px;
+}
+
+/*------------------------O nama-------------------------------------*/
+#o-namahero{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    position: relative;
+}
+#onamaheroslika{
+    width: 900px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 10%;
+}
+#o-namanaslov{
+    text-align: left;
+    position: absolute;
+    top: 13%;
+    left: 53%;
+    width: 650px;
+}
+#pozoviteodmah{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/pozoviteodmah.webp);
+    background-position: center center;
+    text-align: center;
+    margin-top: 150px;
+}
+#pozoviteodmah h2{
+    color: white;
+    font-size: 51px;
+}
+#sekcijaonama2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+#naslovitekst{
+    width: 40%;
+}
+#slikasekcija{
+    width: 700px;
+    border-radius: 10%;
+    margin-top: -100px;
+}
+#crvenihr{
+    width: 30%;
+    height: 1px;
+    background-color: red;
+    border: none;
+    margin-bottom: 22px
+}
+#naslovitekst p{
+    color: #4C4C4C;
+}
+#galerijanaslov{
+    text-align: center;
+}
+.red{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.galerijaslika{
+    width: 500px;
+    height: 353.33px;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 5%;
+}
+.galerijaslika:hover{
+    border-radius: 10%;
+    transition-duration: 0.3s;
+}
+/*-----------------------------Kontakt------------------------------*/
+
+#mainkontakt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+#naslovforma{
+    width: 50%;
+    margin-bottom: 20px;
+}
+#levi-deo{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.inputtext{
+    border-radius: 10px;
+    padding-right: 600px;
+    height: 30px;
+    padding-left: 10px; 
+}
+#textarea{
+    resize: none;
+    height: 100px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#submit{
+    padding: 8px 12px;
+    background-color: #066AAB;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+#kontaktbox{
+    text-align: center;
+    width: 25%;
+    background-image: linear-gradient(#0057FF, #00A3FF, #00E7FF );
+    color: white;
+    padding: 30px 20px 70px 20px;
+    border-radius: 10%;
+}
+#kontaktbox p{
+    color: white;
+}
+#kontaktbox h1{
+    font-size: 40px;
+}
+#emailtekst{
+    margin-bottom: 50px;
+}
+#kontaktboxemail{
+    margin-top: 50px;
+}
+
+/*---------------------Autor--------------------------*/
+#autor{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#slikaautor{
+    width: 600px;
+    border-radius: 10%;
+    margin-right: 100px;
+}
+#autordesnideo{
+    width: 30%;
+}
+#autorspan{
+    font-weight: 700;
+    color: #0057FF;
+}
